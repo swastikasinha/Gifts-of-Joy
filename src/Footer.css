@@ -1,0 +1,58 @@
+.footer{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    background-color: #560000;
+    margin-bottom: 10px;
+}
+
+.footer__name{
+    font-weight: 15px;
+    color: white;
+}
+
+.footer__mail{
+    font-weight: 12px;
+    color: white;
+}
+.columns{
+    display: flex;
+    flex-direction: row;
+}
+
+.LineOne{
+    font-weight: 8px;
+    color: white;
+    font-size: medium;
+}
+
+.LineTwo{
+    color: white;
+    font-weight: 5px;
+    font-size: small;
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    width:50px;
+    object-fit: contain;
+}
+
+.column__one{
+    display: flex;
+    flex-direction: column;
+    padding-right: 200px;
+}
+
+.column__two{
+    display: flex;
+    flex-direction: column;
+    padding-right: 200px;
+}
+
